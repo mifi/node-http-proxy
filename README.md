@@ -338,6 +338,7 @@ proxyServer.listen(8015);
 *  **autoRewrite**: rewrites the location host/port on (301/302/307/308) redirects based on requested host/port. Default: false.
 *  **protocolRewrite**: rewrites the location protocol on (301/302/307/308) redirects to 'http' or 'https'. Default: null.
 *  **headers**: object with extra headers to be added to target requests.
+*  **proxyTimeout**: timeout in milliseconds for the backend socket. Default: no timeout.
 
 **NOTE:**
 `options.ws` and `options.ssl` are optional.
